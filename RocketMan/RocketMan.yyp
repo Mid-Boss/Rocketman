@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04ed743a-498c-4cc8-856d-9ea5460bd845",
+            "Value": {
+                "id": "beb26179-dfea-4f8c-b3b9-6c3d41a9263c",
+                "resourcePath": "sprites\\sAstronaut\\sAstronaut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05b0c5a5-8491-419a-8f11-73f162ab9f3b",
             "Value": {
                 "id": "2a0e39cb-71b4-4522-b757-715474de68f7",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "6079a8f9-7ff0-449b-81b9-5162f5de547a",
+            "Value": {
+                "id": "776387a3-837a-4d2e-bcdb-523d41e56fa7",
+                "resourcePath": "sprites\\sTankard\\sTankard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65d5d1c4-0093-44d6-af78-c0bc11f52f92",
             "Value": {
                 "id": "2778916a-4d92-4860-a988-cc39484ac298",
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "9833cd47-4a12-49f3-a403-992b9a071bbf",
+            "Value": {
+                "id": "2b79af08-4ce2-4a36-9d6b-1ccd313c36b5",
+                "resourcePath": "sprites\\sSpeechBubble\\sSpeechBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "611220e5-8717-46f2-b4e4-a36a9b91ce05",
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "b02459b3-b89a-4890-9560-f83f861560a1",
+            "Value": {
+                "id": "eed39f0b-2bba-4391-8039-9c976e205212",
+                "resourcePath": "sprites\\sFuel\\sFuel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b3028258-6ae2-42b2-8fe1-05160314d711",
             "Value": {
                 "id": "a623b7a3-0c9e-41ac-9730-b0f2714fa8cd",
@@ -244,6 +276,14 @@
                 "id": "f7db42cc-a261-4a2c-b1d7-dd454ecc1bce",
                 "resourcePath": "objects\\obj_platform\\obj_platform.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bcb42b73-c10f-4ac9-8224-ace4492fa103",
+            "Value": {
+                "id": "688874d4-b392-45cd-af38-e91a58a7748c",
+                "resourcePath": "sprites\\sFlag\\sFlag.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
