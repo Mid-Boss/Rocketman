@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if !is_moving
+/*if !is_moving
 {
+	
 	if mouse_x < move_x && mouse_y < room_height/3
 	{
 		option = 1;
@@ -48,4 +49,4 @@ if !is_moving
 		
 		instance_destroy();
 	}
-}
+}*/

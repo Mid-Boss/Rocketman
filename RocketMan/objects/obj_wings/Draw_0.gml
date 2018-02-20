@@ -4,5 +4,7 @@ draw_self();
 
 draw_set_color(c_black);
 draw_set_font(fnt_wings);
-draw_text(x + 30, y + 20, text_1);
-draw_text(x + 220, y + 20, text_2);
+if image_xscale == -1
+	draw_text(x - 40, y + 20, txt);
+else
+	draw_text(x + 30, y + 20, txt);

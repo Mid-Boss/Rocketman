@@ -1,14 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(snd_pikachu, 1, false);
-
-if (instance_exists(obj_factory))
+if (global.wing_1_installed && global.wing_2_installed)
 {
 	with (obj_factory)
 	{
 		instance_destroy();
 	}
+	if x < room_width/2
+		instance_destroy();
 }
-
-instance_create_depth(x, y, -100, obj_factory);
