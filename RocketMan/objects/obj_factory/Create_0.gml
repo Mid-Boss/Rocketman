@@ -9,7 +9,7 @@ x_dis = 20;
 option = 0;
 is_moving = false;
 
-correct_capital_option = string_char_at(global.word, 1);
+/*correct_capital_option = string_char_at(global.word, 1);
 correct_lower_option = string_lower(correct_capital_option);
 
 incorrect_capital_option_1 = chr(irandom_range(65, 90));
@@ -33,7 +33,9 @@ ds_list_add(lst_wing, correct_capital_option, correct_lower_option,
 incorrect_capital_option_1, incorrect_lower_option_1, incorrect_capital_option_2, 
 incorrect_lower_option_2);
 
-ds_list_shuffle(lst_wing);
+ds_list_shuffle(lst_wing);*/
+
+lst_wing = draw_wings(6,global.letter);
 
 wing_1 = instance_create_layer(start_x + x_dis, y_dis, "Instances", obj_wings);
 wing_1.txt = lst_wing[| 0];

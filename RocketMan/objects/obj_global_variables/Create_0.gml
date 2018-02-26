@@ -3,6 +3,7 @@
 
 randomize();
 global.word = "Pikachu";
+global.letter = ABC.P;
 global.wing_1_installed = false;
 global.wing_2_installed = false;
 global.correct_wing_1 = false;
