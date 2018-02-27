@@ -49,4 +49,3 @@ wing_5 = instance_create_layer(start_x + x_dis*8, room_height/3 + y_dis, "Instan
 wing_5.txt = lst_wing[| 4];
 wing_6 = instance_create_layer(start_x + x_dis*8, room_height*(2/3) + y_dis, "Instances", obj_wings);
 wing_6.txt = lst_wing[| 5];
-

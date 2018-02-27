@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03d62181-3f9e-4820-809f-f8e10762dbc0",
+            "Value": {
+                "id": "eee1847b-6c18-46fa-a487-dd2ffcfebe88",
+                "resourcePath": "scripts\\draw_astronauts\\draw_astronauts.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "04ed743a-498c-4cc8-856d-9ea5460bd845",
             "Value": {
                 "id": "beb26179-dfea-4f8c-b3b9-6c3d41a9263c",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "5ec51a0a-f4d7-4e87-8d66-5bf3de429a81",
+            "Value": {
+                "id": "dd1e1530-811c-4d9e-945b-3fc2f2d8c9d9",
+                "resourcePath": "scripts\\draw_fuel\\draw_fuel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6079a8f9-7ff0-449b-81b9-5162f5de547a",
             "Value": {
                 "id": "776387a3-837a-4d2e-bcdb-523d41e56fa7",
@@ -300,6 +316,14 @@
                 "id": "2b79af08-4ce2-4a36-9d6b-1ccd313c36b5",
                 "resourcePath": "sprites\\sSpeechBubble\\sSpeechBubble.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "998eb05a-be3a-437f-86c7-c7c26fa0d4d8",
+            "Value": {
+                "id": "9fc55336-1e69-4d16-9562-846dfe5929cf",
+                "resourcePath": "scripts\\two_d_array_index_to_list\\two_d_array_index_to_list.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -561,8 +585,11 @@
     ],
     "script_order": [
         "b562e709-797c-495e-886b-cf4e0826b64a",
+        "5ec51a0a-f4d7-4e87-8d66-5bf3de429a81",
+        "03d62181-3f9e-4820-809f-f8e10762dbc0",
         "9126d9ec-ade9-459f-82ad-a3574138dbf8",
-        "dc43af01-029e-40f9-a870-4cc3c61ac3b5"
+        "dc43af01-029e-40f9-a870-4cc3c61ac3b5",
+        "998eb05a-be3a-437f-86c7-c7c26fa0d4d8"
     ],
     "tutorial": ""
 }

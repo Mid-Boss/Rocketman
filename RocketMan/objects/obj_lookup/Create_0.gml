@@ -25,6 +25,7 @@ letter_name_sound[ABC.D] = snd_D;
 letter_name_sound[ABC.M] = snd_M;
 letter_name_sound[ABC.P] = snd_P;
 letter_name_sound[ABC.T] = snd_T;
+//Note: call phonics_sound array
 
 letter_sprite[ABC.B] = sLetterB;
 letter_sprite[ABC.D] = sLetterD;
