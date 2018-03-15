@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+sound = noone;
 color = scr_random_color();
 
 fuel_count = instance_number(obj_fuel);

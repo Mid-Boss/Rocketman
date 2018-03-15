@@ -4,5 +4,5 @@
 if x < room_width/2
 {
 	image_blend = c_white;
-	dw_spr = false;
+	dw_txt = false;
 }

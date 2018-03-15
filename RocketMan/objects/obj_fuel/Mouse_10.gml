@@ -4,5 +4,5 @@
 if x < room_width/2
 {
 	image_blend = c_orange;
-	audio_play_sound(txt, 1, false);
+	audio_play_sound(sound, 1, false);
 }

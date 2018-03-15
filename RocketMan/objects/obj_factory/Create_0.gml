@@ -33,24 +33,24 @@ switch global.phase
 	{	
 		lst_fuel = draw_fuel(3,global.letter);
 
-		wing_1 = instance_create_layer(start_x + x_dis, y_dis, "Instances", obj_fuel);
-		wing_1.txt = lst_fuel[| 0];
-		wing_2 = instance_create_layer(start_x + x_dis, room_height/3 + y_dis, "Instances", obj_fuel);
-		wing_2.txt = lst_fuel[| 1];
-		wing_3 = instance_create_layer(start_x + x_dis, room_height*(2/3) + y_dis, "Instances", obj_fuel);
-		wing_3.txt = lst_fuel[| 2];
+		fuel_1 = instance_create_layer(start_x + x_dis, y_dis, "Instances", obj_fuel);
+		fuel_1.sound = lst_fuel[| 0];
+		fuel_2 = instance_create_layer(start_x + x_dis, room_height/3 + y_dis, "Instances", obj_fuel);
+		fuel_2.sound = lst_fuel[| 1];
+		fuel_3 = instance_create_layer(start_x + x_dis, room_height*(2/3) + y_dis, "Instances", obj_fuel);
+		fuel_3.sound = lst_fuel[| 2];
 	}
 	break;
 	case 2: //Astronauts
 	{	
 		lst_astro = draw_astronauts(3,global.letter);
 
-		wing_1 = instance_create_layer(start_x + x_dis, y_dis, "Instances", obj_astro);
-		wing_1.txt = lst_astro[| 0];
-		wing_2 = instance_create_layer(start_x + x_dis, room_height/3 + y_dis, "Instances", obj_astro);
-		wing_2.txt = lst_astro[| 1];
-		wing_3 = instance_create_layer(start_x + x_dis, room_height*(2/3) + y_dis, "Instances", obj_astro);
-		wing_3.txt = lst_astro[| 2];
+		astro_1 = instance_create_layer(start_x + x_dis, y_dis, "Instances", obj_astro);
+		astro_1.txt = lst_astro[| 0];
+		astro_2 = instance_create_layer(start_x + x_dis, room_height/3 + y_dis, "Instances", obj_astro);
+		astro_2.txt = lst_astro[| 1];
+		astro_3 = instance_create_layer(start_x + x_dis, room_height*(2/3) + y_dis, "Instances", obj_astro);
+		astro_3.txt = lst_astro[| 2];
 	}
 	break;
 }

@@ -19,16 +19,16 @@ if (start_x + move_x) < 0
 		break;
 		case 1:
 		{
-			wing_1.x += spd;
-			wing_2.x += spd;
-			wing_3.x += spd;
+			fuel_1.x += spd;
+			fuel_2.x += spd;
+			fuel_3.x += spd;
 		}
 		break;
 		case 2:
 		{
-			wing_1.x += spd;
-			wing_2.x += spd;
-			wing_3.x += spd;
+			astro_1.x += spd;
+			astro_2.x += spd;
+			astro_3.x += spd;
 		}
 		break;
 	}
