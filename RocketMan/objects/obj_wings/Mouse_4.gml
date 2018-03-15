@@ -24,11 +24,4 @@ else if !global.wing_2_installed
 	}
 	instance_destroy();
 }
-else
-{
-	with (obj_factory)
-	{
-		instance_destroy();
-	}
-}
 

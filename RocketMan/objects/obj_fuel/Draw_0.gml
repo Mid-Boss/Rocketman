@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if x < room_width/2
-	image_blend = c_white;
+draw_sprite_ext(sFuel, 0, x, y, 1, 1, 0, color, 1);

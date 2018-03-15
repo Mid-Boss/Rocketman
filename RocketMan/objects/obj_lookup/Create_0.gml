@@ -72,3 +72,11 @@ letter_string[ABC.T,word.two] = "Toys";
 letter_string[ABC.T,word.three] = "Tiger";
 letter_string[ABC.T,word.four] = "Train";
 letter_string[ABC.T,word.five] = "Trash";
+
+color[0] = c_yellow;
+color[1] = c_red;
+color[2] = c_blue;
+color[3] = c_purple;
+color[4] = c_orange;
+color[5] = c_green;
+color[6] = c_black;

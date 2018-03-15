@@ -2,4 +2,7 @@
 // You can write your code in this editor
 
 if x < room_width/2
-	image_blend = c_white;
+{
+	image_blend = c_orange;
+	dw_spr = true;
+}
